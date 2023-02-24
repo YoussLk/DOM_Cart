@@ -1,0 +1,31 @@
+.card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px;
+    border: 1px solid #ccc;
+    margin-bottom: 8px;
+}
+
+.card img {
+    max-height: 80px;
+    margin-right: 8px;
+}
+
+.card button {
+    padding: 4px 8px;
+    margin-left: 8px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.card .like {
+    color: red;
+}
+
+.total-price {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 16px;
+}
